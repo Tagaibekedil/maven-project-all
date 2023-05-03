@@ -1,10 +1,7 @@
 package kg.megalab.config.properties;
 
 import kg.megalab.model.JsonModelApi;
-import kg.megalab.service.rest.JsonMapper;
-import kg.megalab.service.rest.RestService;
 import lombok.Data;
-import java.io.IOException;
 import java.sql.*;
 
 @Data
