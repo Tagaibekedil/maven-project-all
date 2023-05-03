@@ -10,5 +10,5 @@ public class Selects {
     
     private final String QUERY1="INSERT INTO post(id,title,body,user_id,reactions ) VALUES (?,?, ?, ?, ?)";
     private final String QUERY2="select title,body,created_at from post";
-    private final String QUeRY3="INSERT INTO tag(name,user_id ) VALUES (?,?)";
+    private final String QUeRY3="INSERT INTO tag(name,post_id ) VALUES (?,?)";
 }
